@@ -25,7 +25,7 @@ class StonePaperScissors:
     def play_game(self):
         print("Welcome to the Stone,Paper,Scissors game!")
         while True:
-            start_game=input("Do you want to start the game?(yes '\\' no):").strip().lower()
+            start_game=input("Do you want to start the game?(yes \\ no):").strip().lower()
             if start_game!='yes':
                 print("Goodbye!")
                 return
@@ -40,7 +40,7 @@ class StonePaperScissors:
             print(f"After updating scores:User Score= {self.user_score},Computer Score= {self.computer_score}") 
             print(result)
             print(f"score-You: {self.user_score},Computer:{self.computer_score}")
-            play_again=input("Do you want to play again?(yes '\\' no):").strip().lower()
+            play_again=input("Do you want to play again?(yes \\ no):").strip().lower()
             if play_again !='yes':
                  break
         print("Final Score:")
